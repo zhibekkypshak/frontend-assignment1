@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #171717;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav {
+    background-color: #0d0d0d;
+    text-align: center;
+    padding: 18px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    margin: 0 28px;
+    padding: 8px 12px;
+}
+
+nav a:hover {
+    color: #00d2be;
+}
+
+.hero {
+    width: 100%;
+    background-color: #00d2be;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: 430px;
+    object-fit: cover;
+}
+
+main {
+    width: 92%;
+    max-width: 1200px;
+    margin: 35px auto;
+}
+
+section {
+    background-color: white;
+    margin-bottom: 25px;
+    padding: 30px;
+    border-radius: 14px;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
+}
+
+section h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: #111111;
+    font-size: 25px;
+    margin-top: 0;
+    border-bottom: 3px solid #00d2be;
+    padding-bottom: 10px;
+}
+
+.profile {
+    overflow: hidden;
+    background-color: #111111;
+    color: white;
+    padding: 0;
+}
+
+.profile-photo {
+    float: left;
+    width: 42%;
+    height: 650px;
+    object-fit: cover;
+    object-position: center top;
+}
+
+.profile-info {
+    float: right;
+    width: 58%;
+    padding: 45px;
+}
+
+.profile-info h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: #00d2be;
+    font-size: 38px;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.profile-info h2 {
+    color: white;
+    font-size: 18px;
+    border-bottom: 2px solid #00d2be;
+    padding-bottom: 18px;
+    margin-bottom: 30px;
+}
+
+.profile-info p {
+    font-size: 17px;
+    line-height: 1.5;
+    margin: 13px 0;
+    border-bottom: 1px solid #333333;
+    padding-bottom: 9px;
+}
+
+.profile-info strong {
+    color: #00d2be;
+    display: inline-block;
+    width: 145px;
+}
+
+.biography p {
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+.early-life p {
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+.career p {
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+.personal-life p {
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+.events ol {
+    padding-left: 35px;
+}
+
+.events li {
+    margin: 13px 0;
+    padding-left: 8px;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.achievements ul {
+    padding-left: 30px;
+}
+
+.achievements li {
+    margin: 12px 0;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.links {
+    text-align: center;
+}
+
+.links h2 {
+    text-align: left;
+}
+
+.links a {
+    display: inline-block;
+    background-color: #111111;
+    color: white;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px;
+    padding: 15px 25px;
+    border: 2px solid #111111;
+    border-radius: 8px;
+}
+
+.links a:hover {
+    background-color: #00d2be;
+    color: #111111;
+    border-color: #00d2be;
+}
+
+footer {
+    background-color: #0d0d0d;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    font-size: 14px;
+}
+
+footer p {
+    margin: 0;
+}
+
+@media (max-width: 800px) {
+
+    nav a {
+        display: inline-block;
+        margin: 5px 8px;
+    }
+
+    .hero img {
+        height: auto;
+    }
+
+    .profile-photo {
+        float: none;
+        width: 100%;
+        height: 500px;
+    }
+
+    .profile-info {
+        float: none;
+        width: 100%;
+        padding: 30px;
+    }
+
+    .profile-info strong {
+        display: block;
+        width: auto;
+    }
+
+    main {
+        width: 94%;
+    }
+}
