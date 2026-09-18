@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+    background-color: #f5f0f2;
+    font-family: Arial, sans-serif;
+    color: #333333;
+}
+
+nav {
+    background-color: #6d4050;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+}
+
+nav a:hover {
+    color: #f5c6d5;
+}
+
+header {
+    background-color: #d9a5b5;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+main {
+    width: 80%;
+    margin: 30px auto;
+}
+
+section {
+    background-color: white;
+    margin-bottom: 30px;
+    padding: 25px;
+    border: 1px solid #dddddd;
+}
+
+h2 {
+    color: #6d4050;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+caption {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+th {
+    background-color: #d9a5b5;
+    color: white;
+}
+
+th,
+td {
+    border: 1px solid #999999;
+    padding: 12px;
+    text-align: center;
+}
+
+tfoot {
+    font-weight: bold;
+    background-color: #f5e1e7;
+}
+
+form {
+    width: 100%;
+}
+
+form label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #aaaaaa;
+}
+
+.options input {
+    width: auto;
+}
+
+.options label {
+    display: inline;
+    margin-right: 20px;
+}
+
+.form-title {
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+.buttons input {
+    width: auto;
+    background-color: #6d4050;
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    margin-right: 10px;
+}
+
+.buttons input:hover {
+    background-color: #a96f82;
+}
+
+footer {
+    background-color: #6d4050;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
